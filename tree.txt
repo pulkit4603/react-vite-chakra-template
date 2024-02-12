@@ -1,0 +1,101 @@
+│   .eslintrc.cjs
+│   .gitignore
+│   .lintstagedrc.json
+│   .npmrc
+│   .prettierrc
+│   commitlint.config.cjs
+│   index.html
+│   knip.ts
+│   LICENSE
+│   netlify.toml
+│   package.json
+│   pnpm-lock.yaml
+│   README.md
+│   renovate.json
+│   tsconfig.json
+│   tsconfig.node.json
+│   tsconfig.tsbuildinfo
+│   turbo.json
+│   vercel.json
+│   vite.config.ts
+│
+├───.github
+│   └───workflows
+│           release.yml
+│           update-license.yml
+│
+├───.husky
+│   │   commit-msg
+│   │   pre-commit
+│   │   pre-push
+│   │
+│   └───_
+│           .gitignore
+│           applypatch-msg
+│           commit-msg
+│           h
+│           husky.sh
+│           post-applypatch
+│           post-checkout
+│           post-commit
+│           post-merge
+│           post-rewrite
+│           pre-applypatch
+│           pre-auto-gc
+│           pre-commit
+│           pre-push
+│           pre-rebase
+│           prepare-commit-msg
+│
+├───.vscode
+│       extensions.json
+│
+├───public
+│   │   robots.txt
+│   │   _redirects
+│   │
+│   └───assets
+│           404 Error-rafiki.svg
+│           Building blocks-amico.svg
+│           chakra-ui-logomark-colored.svg
+│           favicon.svg
+│           react-icon.svg
+│           ts-logo-512.svg
+│           vite-logo.svg
+│
+└───src
+    │   App.tsx
+    │   index.tsx
+    │
+    └───lib
+        ├───components
+        │   └───auth
+        │           RequireAuth.tsx
+        │
+        ├───layout
+        │       Footer.tsx
+        │       Header.tsx
+        │       index.tsx
+        │       Meta.tsx
+        │       ThemeToggle.tsx
+        │
+        ├───pages
+        │   ├───404
+        │   │       index.tsx
+        │   │
+        │   └───home
+        │       │   index.tsx
+        │       │
+        │       └───components
+        │               CTASection.tsx
+        │               SomeImage.tsx
+        │               SomeText.tsx
+        │
+        ├───router
+        │       routes.tsx
+        │       Routings.tsx
+        │
+        └───styles
+            └───theme
+                    config.ts
+                    index.ts
